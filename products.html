@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>YOUnique Scraps | Products</title>
+    <meta name="description" content="YOUnique Scraps | Products" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/tabs.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="javascript/shoppingcart.js"></script>
+  <script>
+    function bigImg(x) {
+      x.style.height = '360px';
+      x.style.width = '600px';
+    }
+
+    function normalImg(x) {
+      x.style.height = '180px';
+      x.style.width = '300px';
+    }
+  </script>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <nav class="navbar navbar-expand-lg bg-custom justify-content-center">
+      <a class="navbar-brand" href="/">YOUnique Scraps</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse container justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="products.html">
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="newsletter.html">Newsletter Signup</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <i class="material-icons inline-block mr-4">account_circle</i>
+      </div>
+      <div id="shopping-cart-div">
+        <p class="item-number" id="shopping-cart"></p>
+        <i class="material-icons inline-block mr-4">add_shopping_cart</i>
+      </div>
+    </nav>
+
+    <main class="container mt-4">
+      <button
+        class="tablink"
+        onclick="openPage('Scrapbooking', this, '#60a917')" 
+        id="defaultOpen"
+      >
+        Scrapbooking Supplies
+      </button>
+      <button class="tablink" onclick="openPage('Sewing', this, '#60a917')">
+        Sewing Supplies
+      </button>
+      <button class="tablink" onclick="openPage('Vinyl', this, '#60a917')">
+        Vinyl Supplies
+      </button>
+
+      <div id="Scrapbooking" class="tabcontent">
+        <h3>Scrapbooking Supplies</h3>
+        <div class="card-group">
+          <div id="itemContainer" class="card">
+            <img
+              src="../../images/album_180x300-10.jpg"
+              onmouseover="bigImg(this)"
+              onmouseout="normalImg(this)"
+              class="card-img-top"
+              alt="Simple Stories Album"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Simple Stories - SNAP Collection - Designer Binder - Robins Egg Stripe
+              </h5>
+              <p class="card-text">
+                Display photos, journaling, calendar pages, and more with the
+                Robin's Egg Stripe Designer Binder from the SN@P! Collection by
+                Simple Stories. This 6" x 8" binder features an interlocking two
+                D-ring binding and has a printed, laminated cover with metal
+                corners, as well as a decorative metal spine bookplate.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$9.99</span
+                ><button data-name="Simple Stories - SNAP Collection - Designer Binder - Robins Egg Stripe" data-price="9.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+                
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/album2_180x300-30.jpg" class="card-img-top" alt="We R Memory Keepers Album" />
+            <div class="card-body">
+              <h5 class="card-title">We R Memory Keepers - Classic Leather - 12 x 12 - 3-Ring Album - Navy</h5>
+              <p class="card-text">
+                Share your cherished family memories in the Navy 12" x 12" Classic Leather 3-Ring Album by We R Memory Keepers. Features of this album from the Albums Made Easy Collection include:
+                <ul>
+                  <li>Five page protectors</li>
+                  <li>Italian style faux leather</li>
+                  <li>1.5" insert capacity</li>
+                  <li>Archival quality</li>
+                  <li>Acid free</li>
+                </ul>
+                 </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$29.99</span
+                ><button data-name="We R Memory Keepers - Classic Leather - 12 x 12 - 3-Ring Album - Navy" data-price="29.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/trimmer_180x300-25.jpg" class="card-img-top" alt="Tonic Studios Trimmer" />
+            <div class="card-body">
+              <h5 class="card-title">Tonic Studios - Tim Holtz - 8.5 Inch Comfort Trimmer</h5>
+              <p class="card-text">
+                Calling all paper-cutters, photo trimmers, and cardstock slicers!  This is the compact cutting device of your dreams!  Say goodbye to odd-size cuts and fuzzy edges, with the 8.5" Comfort Trimmer by Tim Holtz for Tonic Studios, you can easily align, measure, and precisely slice papers and cardstock all in one place! 
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$24.99</span
+                ><button data-name="Tonic Studios - Tim Holtz - 8.5 Inch Comfort Trimmer" data-price="24.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="../../images/sidekick_kit_180x300-35.jpg" class="card-img-top" alt="Sizzix Sidekick Kit" />
+            <div class="card-body">
+              <h5 class="card-title">Sizzix - Sidekick - Starter Kit - White and Gray</h5>
+              <p class="card-text">
+                Take your papercrafting to the next level with the easy-to-use and portable White and Gray Sidekick Starter Kit by Sizzix! You'll love the birthday, thank you, heart and flower designs included in this starter kit. This machine is designed for use with low profile dies and will cut a single sheet of lightweight to cardstock paper.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$34.99</span
+                ><button data-name="Sizzix - Sidekick - Starter Kit - White and Gray" data-price="34.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/honey_bee_stamps_180x300-22.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Honey Bee Stamps - Honey Cuts - Steel Craft Dies - Little Pickup</h5>
+              <p class="card-text">
+                Pick up a little something to go with your Little Pickup Photopolymer Stamps (sold separately)! This Little Pickup Die Set by Honey Bee Stamps is designed from high-quality steel, which will help you create unique cards, layouts, tags and more. It includes 23 individual dies ranging in size from 0.25" x 0.25" to 3.825" x 1.625" that coordinate with the stamps in the Little Pickup stamp set (sold separately). You'll love all of the things included that this pick-up can transport, including pumpkins, flowers, presents, barrels, hearts, trees and miles of smiles! Made in the USA.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$29.99</span
+                ><button data-name="Honey Bee Stamps - Honey Cuts - Steel Craft Dies - Little Pickup" data-price="29.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/advantas_180x300-10.jpg" class="card-img-top" alt="Advantus Paper Dolls" />
+            <div class="card-body">
+              <h5 class="card-title">Advantus - Tim Holtz - Idea-ology Collection - Paper Dolls</h5>
+              <p class="card-text">
+                Amazingly realistic decorative elements are right at your fingertips! These Paper Dolls are from the Idea-ology Collection by Tim Holtz for Advantus and be used on pages, cards, mixed media projects and more. This ephemera is printed on heavyweight coated cardstock and can be used to create stunning layers. The durable composition makes these photographic elements perfect for using with inks, paints, sprays, gessos and other mediums. The package includes 107 die cut pieces.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$9.99</span
+                ><button data-name="Advantus - Tim Holtz - Idea-ology Collection - Paper Dolls" data-price="9.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="../../images/paper1_180x300-30.jpg" class="card-img-top" alt="Doodlebug Design Paper" />
+            <div class="card-body">
+              <h5 class="card-title">Doodlebug Design - 12 x 12 Texture Cardstock Assortment - Bright</h5>
+              <p class="card-text">
+                Get the beautiful 12" x 12" Bright Assorted Cardstock Pack from Doodlebug Design. The solid-core textured cardstock is a spectrum of color unlike any you've ever seen. From the brightest of yellows to the deepest of blues, Doodlebug cardstock is sure to have you tickled pink. This cardstock pack contains four sheets each of the following colors: Watermelon, Raspberry, Mandarin, Tangerine, Marigold, Lemon, Citrus, Limeade, Sea Glass, Swimming Pool, Orchid and Lilac. 
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$29.99</span
+                ><button data-name="Doodlebug Design - 12 x 12 Texture Cardstock Assortment - Bright" data-price="29.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/paper2_180x300-11.jpg" class="card-img-top" alt="Ella and Viv Paper" />
+            <div class="card-body">
+              <h5 class="card-title">Ella and Viv Paper Company - Spice Market Collection - 12 x 12 Collection Kit</h5>
+              <p class="card-text">
+                Imagine all of the fun that you can have with the Spice Market Collection 12" x 12" Kit by Ella Viv Paper Company. This kit includes 12 papers (one sheet of each design) that feature mandala patterns in vivid colors. 
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$10.99</span
+                ><button data-name="Ella and Viv Paper Company - Spice Market Collection - 12 x 12 Collection Kit" data-price="10.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../images/storage_180x300-11.jpg" class="card-img-top" alt="Storage Studios Paper Holder" />
+            <div class="card-body">
+              <h5 class="card-title">Storage Studios - Paper Holder</h5>
+              <p class="card-text">
+                Store the paper holder in your IKEA Expedit or Kallax Storage System, shelves, a desktop, closet or anywhere else that you can think of! You will love that your paper will no longer have bends, folds or tattered edges.This easy to assemble paper holder can be stored upright or on its side depending on your preference. Store on its side for those narrow shelves and still have easy access to your paper. Just think how easy it will be crafting when your paper is organized by color, theme, texture, occasion or whatever works best for you!
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$10.99</span
+                ><button data-name="Storage Studios - Paper Holder" data-price="10.99" class="add-to-cart btn btn-primary">Add to Cart</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Sewing" class="tabcontent">
+        <h3>Sewing Supplies</h3>
+        <div class="card-group">
+          <div id="itemContainer" class="card">
+            <img
+              src="../../images/husqvarna_sewing_300x180-300.jpg"
+              class="card-img-top"
+              alt="Husqvarna Viking Emerald 116 Sewing Machine"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Husqvarna Viking Emerald 116 Sewing Machine
+              </h5>
+              <p class="card-text">
+                The EMERALD™ 116 is a machine ideal for all types of sewing; from
+                a beautiful, one-of-a kind dress to curtains that duplicate those
+                seen in a magazine. The EMERALD™ 116 machine has many practical
+                features you will love including the built-in needle threader, a
+                handy Sewing Guide Reference Chart, a hard cover for storage and
+                an effortless one-step buttonhole.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$299.99</span
+                ><button
+                  data-name="Husqvarna Viking Emerald 116 Sewing Machine"
+                  data-price="299.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/brother_sewing_300x180-320.jpg"
+              class="card-img-top"
+              alt="Brother PE535 Embroidery Machine with Large Color Touch LCD Screen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Brother PE535 Embroidery Machine with Large Color Touch LCD Screen
+              </h5>
+              <p class="card-text">
+                Explore the creative possibilities of custom embroidery with the
+                affordable, reliable and feature-rich Brother PE535 Embroidery
+                Machine with Large Color Touch LCD Screen. This machine comes with
+                features that help make embroidery fun and easy. The large color
+                touch LCD screen allows you to see your designs in color before
+                stitching them out.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$329.99</span
+                ><button
+                  data-name="Brother PE535 Embroidery Machine with Large Color Touch LCD Screen"
+                  data-price="329.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/coats_all_purpose_thread_300x180-2.jpg"
+              class="card-img-top"
+              alt="Coats & Clark Dual Duty All Purpose Thread 400yds"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Coats & Clark Dual Duty All Purpose Thread 400yds
+              </h5>
+              <p class="card-text">
+                The Coats & Clark Dual Duty Thread will take care of your sewing
+                needs. Made of high quality polyester, this thread is strong and
+                long enough to be used on all types of fabrics. It is designed for
+                hand and machine sewing and comes in assorted colors to suit your
+                requirements. So bring home this dual duty thread for a
+                trouble-free sewing experience.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$2.99</span
+                ><button
+                  data-name="Coats & Clark Dual Duty All Purpose Thread 400yds"
+                  data-price="2.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="../../images/dual_duty_all_purpose_thread_300x180-2.jpg"
+              class="card-img-top"
+              alt="Coats & Clark Dual Duty XP General Purpose Thread 125yds"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Coats & Clark Dual Duty XP General Purpose Thread 125yds
+              </h5>
+              <p class="card-text">
+                Make your sewing projects quick and easy with the Coats & Clark
+                Double Duty Xp General Purpose Thread 125 Yds. These 125-yard
+                medium weight threads have polyester-wrapped, core-spun
+                construction that make them strong and durable for consistent
+                tension and detailed stitch formation. Suitable for hand or
+                machine sewing, you can use these general purpose sewing threads
+                on all fibers, knits and woven fabrics easily. They also offer
+                enhanced seam appearance because of their smooth texture. The trap
+                spool is ideal for tidy storage.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$2.99</span
+                ><button
+                  data-name="Coats & Clark Dual Duty XP General Purpose Thread 125yds"
+                  data-price="2.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/wrights_bias_tape_300x180-9.jpg"
+              class="card-img-top"
+              alt="Wrights Double Fold Quilt Binding Bias Tape 7/8''x3 yds Aquamarine"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Wrights Double Fold Quilt Binding Bias Tape 7/8''x3 yds Aquamarine
+              </h5>
+              <p class="card-text">
+                Give your homemade quilts neat, perfect edges with double fold
+                quilt binding from Wrights. This aquamarine quilt binding blends
+                well with many colors, allowing you to use this with quilts of
+                several patterns, textures and colors.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$2.99</span
+                ><button
+                  data-name="Wrights Double Fold Quilt Binding Bias Tape 7/8''x3 yds Aquamarine"
+                  data-price="2.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/fiskars_cutter_300x180-22.jpg"
+              class="card-img-top"
+              alt="Fiskars Titanium Softgrip Comfort Loop Rotary Cutter 60 mm"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Fiskars Titanium Softgrip Comfort Loop Rotary Cutter 60 mm
+              </h5>
+              <p class="card-text">
+                All the benefits of our Comfort Loop design with an improved blade
+                and handle. Fiskars Comfort Loop Rotary Cutter with a premium
+                steel 60 mm blade offers precise cuts through thick quilting
+                materials and multiple layers of fabric, and an updated blade and
+                handle make every job even easier. The blade features a titanium
+                coating that is three times harder than steel for improved
+                durability and lasting sharpness, and the handle includes Softgrip
+                to reduce hand fatigue. A curved shape with a loop handle provides
+                a natural fit for your hand to improve control, and a versatile
+                design provides excellent blade visibility for right- or
+                left-handed users. It even includes a sliding button that extends
+                the blade during use and retracts it for safe storage.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$22.99</span
+                ><button
+                  data-name="Fiskars Titanium Softgrip Comfort Loop Rotary Cutter 60 mm"
+                  data-price="22.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Vinyl" class="tabcontent">
+        <h3>Vinyl Supplies</h3>
+        <div class="card-group">
+          <div id="itemContainer" class="card">
+            <img
+              src="../../images/vinyl/21-aqua-300x180-42.jpg"
+              class="card-img-top"
+              alt="Glitter HTV: 12 Inch x 5 Yard Roll - Aqua"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Glitter HTV: 12 Inch x 5 Yard Roll - Aqua
+              </h5>
+              <p class="card-text">
+                Bring your designs to life by adding some sparkle! These glittery
+                colors are vibrant and eye-catching! Why have a plain design when
+                you can make it stand out with some Glitter HTV? Siser Glitter HTV
+                is perfect for making all your t-shirt projects pop!
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$41.99</span
+                ><button
+                  data-name="Glitter HTV: 12 Inch x 5 Yard Roll - Aqua"
+                  data-price="41.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/vinyl/scglhd-brn_250-02-300x180.jpg"
+              class="card-img-top"
+              alt="12 inch x 5 foot Roll - StarCraft HD Glossy Permanent Vinyl - Brown"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                12 inch x 5 foot Roll - StarCraft HD Glossy Permanent Vinyl -
+                Brown
+              </h5>
+              <p class="card-text">
+                StarCraft HD (High Durability) Permanent Adhesive Vinyl is
+                excellent for crafting, long term graphics, decals, lettering,
+                signs, and most any application requiring durability and
+                longevity. StarCraft HD vinyl comes in Glossy and Matte finish for
+                all colors and is rated up to 5-6 years durability. StarCraft HD
+                will stick to most any solid surface, especially hard, shiney
+                surfaces such as glass. Note: Surfaces with textures or coatings
+                may not be designed for adhesive films to adhere or cure properly.
+                Using a firm rubber ball to rub the vinyl onto the surface can
+                often help with applying
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$2.99</span
+                ><button
+                  data-name="12 inch x 5 foot Roll - StarCraft HD Glossy Permanent Vinyl - Brown"
+                  data-price="2.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/vinyl/Gloss-UV-Laminate-250-300x180.jpg"
+              class="card-img-top"
+              alt="StarCraft UV Glossy Laminate 10 Pack 8.5 inch x 11 inch Sheets"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                StarCraft UV Glossy Laminate 10 Pack 8.5 inch x 11 inch Sheets
+              </h5>
+              <p class="card-text">
+                StarCraft Glossy UV Laminate is excellent for protecting your
+                StarCraft Inkjet Printable Adhesive Vinyl from UV (sun) exposure,
+                dirt, grime, water, and adhesives.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$9.99</span
+                ><button
+                  data-name="StarCraft UV Glossy Laminate 10 Pack 8.5 inch x 11 inch Sheets"
+                  data-price="9.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="../../images/vinyl/Alcohol_Ink_Alcohol_Blending_Solution_300x180.jpg"
+              class="card-img-top"
+              alt="Alcohol Ink - Blending Solution"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Alcohol Ink - Blending Solution
+              </h5>
+              <p class="card-text">
+                This alcohol ink blending solution is specially formulated to
+                blend and lighten alcohol-based inks. It also removes alcohol inks
+                from slick surfaces, hands, and art tools.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$2.99</span
+                ><button
+                  data-name="Alcohol Ink - Blending Solution"
+                  data-price="2.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/vinyl/starcraft-heat-press-sc-hp1515cs-3-01-300x180.jpg"
+              class="card-img-top"
+              alt="StarCraft 15 in x 15 in Clam Shell Heat Press - Mint"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                StarCraft 15 in x 15 in Clam Shell Heat Press - Mint
+              </h5>
+              <p class="card-text">
+                This heavy-duty StarCraft clam shell heat press includes 15 inch x
+                15 inch clamshell platen with easy pressure adjustment and a
+                removable pressing bottom pad. This heat press features suction
+                cup feet for holding in place during use, which prevents the heat
+                press from lifting and potentially falling off the table when
+                closing or opening the press under high pressure. The dial on the
+                top of the press is used to manually adjust the pressure. This
+                heat press features an easy to use touch screen interface as well
+                as an idle auto-off timer. The heat press can be set to turn off
+                after sitting idle for up to 60 minutes. Even with the shutoff
+                timer, the heat press should still be unplugged when not in use.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$349.99</span
+                ><button
+                  data-name="StarCraft 15 in x 15 in Clam Shell Heat Press - Mint"
+                  data-price="349.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../images/vinyl/silhouette-cameo-4-pink-300x180.jpg"
+              class="card-img-top"
+              alt="Pink Silhouette Cameo 4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Pink Silhouette Cameo 4
+              </h5>
+              <p class="card-text">
+                The Cameo 4 is a 12-inch width desktop cutting machine that lets
+                you make precision cuts in vinyl, cardstock, fabric, and more.
+                With an all-new, dual-motor system, you can experience increased
+                power and speed. The Cameo 4 is compatible with both Mac and
+                Windows operating systems and utilizes Silhouette Studio, the
+                dynamic software behind any Silhouette cutting machine. And as a
+                Silhouette user, you’ll have access to over 150,000 designs at the
+                Silhouette Design Store. Now you can cut thicker materials, fabric
+                without a stabilizer backing, and paper without a cutting mat.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="add-button">
+                <span class="mr-4">$299.99</span
+                ><button
+                  data-name="Pink Silhouette Cameo 4"
+                  data-price="299.99"
+                  class="add-to-cart btn btn-primary"
+                >
+                  Add to Cart
+                </button>
+              </p>
+            </div>
+          </div>
+        </div> </div>
+
+    </main>
+    <footer class="products-footer">
+      <div class="container">
+        <span>Copyright &copy; 2020 YOUnique Scraps</span>
+      </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div id="shoppingCartModal" class="shopModal-class">
+      <!-- Modal content -->
+      <div class="shopModal-content">
+        <span class="shopModal-close">&times;</span>
+        <h3>Shopping Cart</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Item Name</th>
+              <th scope="col" class="float-right">Item Price</th>
+            </tr>
+          </thead>
+          <tbody id="shoppingCartModal-content"></tbody>
+        </table>
+        <div class="shopButtons">
+          <input
+            id="continueButton"
+            type="button"
+            class="btn btn-primary float-left"
+            value="Continue Shopping"
+          />
+          <input
+            id="clearButton"
+            type="button"
+            class="btn btn-outline-primary float-left ml-4"
+            value="Clear Shopping Cart"
+          />
+          <input
+            id="checkoutButton"
+            type="button"
+            class="btn btn-primary float-right"
+            value="Checkout"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Shopping Cart Modal -->
+
+        <!-- Item Added Modal -->
+        <div id="itemAddedModal" class="itemAddedModal-class">
+          <!-- Modal content -->
+          <div class="itemAddedModal-content">
+            <span class="itemAddedModal-close">&times;</span>
+            <p id="itemAddedModal-content"></p>
+          </div>
+        </div>
+        <!-- Item Added Item-->
+
+    <script>
+      function openPage(pageName, elmnt, color) {
+      // Hide all elements with class="tabcontent" by default */
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName('tabcontent');
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = 'none';
+        }
+
+        // Remove the background color of all tablinks/buttons
+        tablinks = document.getElementsByClassName('tablink');
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = '';
+        }
+
+        // Show the specific tab content
+        document.getElementById(pageName).style.display = 'block';
+
+        // Add the specific color to the button used to open the tab content
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById('defaultOpen').click();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

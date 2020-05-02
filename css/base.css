@@ -1,0 +1,82 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #60a917;
+  color: white;
+}
+
+.products-footer {
+  position: relative;
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #60a917;
+  color: white;
+}
+
+.bg-custom {
+  background-color: #60a917;
+}
+
+ul > .nav-item {
+  margin-right: 30px;
+}
+
+ul > .nav-item a,
+a:visited {
+  color: white;
+}
+
+ul > .nav-item a:hover {
+  color: black;
+}
+
+ul > .nav-item a:active {
+  color: gray;
+}
+
+nav a.navbar-brand,
+a.navbar-brand:hover,
+a.navbar-brand:visited,
+a.navbar-brand:active {
+  color: white;
+  font-weight: bold;
+}
+
+i {
+  color: white;
+  margin-left: 15px;
+}
+
+#shopping-cart-div {
+  cursor: pointer;
+}
+
+.add-button {
+  float: right;
+}
+
+.item-number {
+  color: white;
+  margin-bottom: 0px;
+}
+
+/* Override font size of card-text on About page */
+.about-text {
+  font-size: 18px;
+}

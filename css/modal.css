@@ -1,0 +1,54 @@
+/* The Modal (background) */
+.shopModal-class,
+.confirmationModal-class,
+.itemAddedModal-class {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.shopModal-content,
+.confirmationModal-content,
+.itemAddedModal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px 20px 60px 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+}
+
+.shopModal-content,
+.confirmationModal-content,
+.itemAddedModal-content > input {
+  cursor: poiner;
+}
+
+/* The Close Button */
+.shopModal-close,
+.confirmationModal-close,
+.itemAddedModal-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.shopModal-close:hover,
+.shopModal-close:focus,
+.confirmationModal-close:hover,
+.confirmationModal-close:focus,
+.itemAddedModal-close:hover,
+.itemAddedModal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
