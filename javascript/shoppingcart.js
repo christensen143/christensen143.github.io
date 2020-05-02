@@ -69,7 +69,7 @@ $(document).ready(function () {
   }
 
   // Add an item to shopping cart
-  $('button').click(function (e) {
+  $('.add-to-cart').click(function (e) {
     // e.preventDefault();
     let newItem = {
       itemPrice: $(this).data('price'),
