@@ -128,7 +128,7 @@ $(document).ready(function () {
   };
 
   checkoutButton.onclick = function () {
-    window.location.href = 'http://127.0.0.1:5500/checkout.html';
+    window.location.href = 'https://christensen143.github.io/checkout.html';
   };
 
   // When the user clicks on <span> (x), close the modal
